@@ -1,0 +1,418 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Rasmohostov</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"
+        integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+
+<body>
+    <section>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4 col-sm-4 main-logo text-center wid-row">
+                    <img src="images/logo.png" alt="">
+                </div>
+                <div class=" col-md-4 col-sm-4 r-img text-center">
+                    <img src="images/logo1.png" alt="">
+                </div>
+                <div class="col-md-4 col-sm-4 icon text-center">
+                    <!-- <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-square-facebook"></i>
+                    <i class="fa-brands fa-square-whatsapp"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-telegram"></i> -->
+
+                    <img class="insta" src="images/03.Instagram.png" alt="">
+                    <img class="whatsapp" src="images/whatsapp.png" alt="">
+                    <img class="facebook" src="images/facebook.png" alt="">
+                    <img class="youtube" src="images/youtube.png" alt="">
+                    <img class="telegram" src="images/telegram.png" alt="">
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class=" logo-middle col d-flex justify-content-center">
+                    <img src="images/logo2.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid sec-1">
+            <div class="row ">
+                <div class="col-md-4">
+                    <img src="images/strev 2.png" alt="">
+                </div>
+                <div class="col-md-4 mb-4">
+
+                    <h3 class="main-heading text-center">13.5 Crore
+                        NaamSankirtan Mahamahotsav</h3>
+
+                    <h3 class="heading1 text-center">22nd - 28th May, 2025</h3>
+                    <div class="emty"></div>
+                    <h5 class="heading1 text-center"> <i class="fa-solid fa-location-dot"></i> Hare Krishna Orchid,
+                        Vrindavan</h5>
+                </div>
+
+                <div class="form-edit col-md-4 p-4 bg-white text-center">
+                    <div class="text-center">
+                        <h1>Register Now</h1>
+                    </div>
+                    <form id="myForm">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="contact-name" placeholder="Full Name">
+                            <p class="editcolor" id="name-error"></p>
+
+                        </div>
+                        <div class="mb-3">
+                            <input type="tel" class="form-control" id="contact-phone" placeholder="Phone">
+                            <p class="editcolor" id="phone-error"></p>
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" id="contact-email" placeholder="E-mail">
+                            <p class="editcolor" id="email-error"></p>
+                        </div>
+                        <div class="mb-3">
+                            <input type="tel" class="form-control" id="age" placeholder="Age">
+                            <p class="editcolor" id="age-error"></p>
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="medium" placeholder="Medium">
+                            <p class="editcolor" id="medium-error"></p>
+                        </div>
+                        <div class="mb-3 address">
+                            <textarea class="form-control" id="address" placeholder="Address"></textarea>
+                            <p class="editcolor" id="address-error"></p>
+                        </div>
+                        <button type="submit" class="form-control" onclick="return validateForm()">Submit</button>
+                        <p class="editcolor" id="submit-error"></p>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container sec-2">
+
+            <div class="row">
+
+                <div class=" col-md-4 inc">
+                    <fieldset>
+                        <legend>Inclusions</legend>
+
+                </div>
+
+                <div class="list-3 row bg-white">
+                    <div class="col-md-4">
+                        <ul>
+                            <li> <i class="fa-solid fa-star-of-life"></i> 9 days & 8 nights accommodation in Luxury
+                                Resort</li>
+                            <li> <i class="fa-solid fa-star-of-life"></i> On Twin sharing basis</li>
+                            <li> <i class="fa-solid fa-star-of-life"></i> Darshan of Shri Chaitanya Mahaprabhu ji’s
+                                original paduka from Navdeep Dham</li>
+                            <li> <i class="fa-solid fa-star-of-life"></i> 8-day all 3 times pure veg (jain) meals </li>
+                            <li> <i class="fa-solid fa-star-of-life"></i> Padma Shri Smt Hema Malini ji will be gracing
+                                the event </li>
+                            <li> <i class="fa-solid fa-star-of-life"></i> All day access to Naamjap Venue for all
+                                sessions</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <ul>
+
+                            <li> <i class="fa-solid fa-star-of-life"></i> 2 sarees & 1 dupatta for females / 1 dupatta
+                                for males</li>
+                            <li> <i class="fa-solid fa-star-of-life"></i> 2 times Tea & snacks</li>
+                            <li> <i class="fa-solid fa-star-of-life"></i> Divine Musical event by Tal Chakra Padmashri
+                                Suresh Talwalkar ji & team on Tabla</li>
+                            <li> <i class="fa-solid fa-star-of-life"></i> More than 500 Santo ka bhandhara </li>
+                            <li> <i class="fa-solid fa-star-of-life"></i>Special Utsavs like Shri Krishna janam utsav,
+                                Chappan Bhog and Govardhan Puja, Braj ki
+                                holy, Shri Radha Krishna Vivah Utsav every evening </li>
+
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <ul>
+                            <li> <i class="fa-solid fa-star-of-life"></i> Divine Abhishek darshan of 250 years Shrinath
+                                ji bhagwan</li>
+                            <li> <i class="fa-solid fa-star-of-life"></i> Access to 2 swimming pools</li>
+                            <li> <i class="fa-solid fa-star-of-life"></i> Darshan of Brij Vibhuti Sant Samagam
+                                (legendary sant of Vrindavan)</li>
+                            <li> <i class="fa-solid fa-star-of-life"></i> Registration form</li>
+
+                        </ul>
+                    </div>
+                </div>
+
+
+                </fieldset>
+            </div>
+        </div>
+
+        <div class="container-fluid sec-3">
+            <h1 class="text-center">Photo</h1>
+            <p class="text-center">Glimpse of previous years of Naamjap Mahamahotsav</p>
+            <div class="row slider">
+
+
+                <div class="photo-section">
+                    <div>
+                        <img src="images/photo1.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="images/photo2.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="images/photo3.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="images/photo4.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="images/photo4.jpg" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="container-fluid sec-3 ">
+            <h1 class="text-center">Video</h1>
+            <p class="text-center">Click on the video to experience our Naamjap Mahamahotsav</p>
+            <div class="row slider">
+
+
+                <div class="photo-section">
+                    <div>
+                        <img src="images/video1.png" alt="">
+                    </div>
+                    <div>
+                        <img src="images/video2.png" alt="">
+                    </div>
+                    <div>
+                        <img src="images/video3.png" alt="">
+                    </div>
+                    <div>
+                        <img src="images/video4.png" alt="">
+                    </div>
+                    <div>
+                        <img src="images/video4.png" alt="">
+                    </div>
+
+
+
+                </div>
+
+            </div>
+        </div>
+        <div class="container-fluid sec-3">
+
+            <div class="row slider ">
+
+                <h1 class="text-center">Stay</h1>
+                <p class="text-center">Explore our Hotel Hare Krishna Orchid at Vrindavan</p>
+                <div class="photo-section">
+                    <div>
+                        <img src="images/stay1.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="images/stay2.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="images/stay3.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="images/stay4.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="images/stay4.jpg" alt="">
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <!--                 
+                <div class="photo-section">
+                    <img src="images/photo1.jpg" alt="">
+                    <img src="images/photo2.jpg" alt="">
+                    <img src="images/photo3.jpg" alt="">
+                    <img src="images/photo4.jpg" alt="">
+                </div>
+                
+                <div class="photo-section">
+                    <img src="images/photo1.jpg" alt="">
+                    <img src="images/photo2.jpg" alt="">
+                    <img src="images/photo3.jpg" alt="">
+                    <img src="images/photo4.jpg" alt="">
+                </div> -->
+
+        <!-- <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                            aria-label="Slide 4"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class=" col-md-3 carousel-item active">
+                            <div class="card" style="width: 18rem;">
+                                <img src="..." class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 carousel-item">
+                            <div class="card" style="width: 18rem;">
+                                <img src="..." class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 carousel-item">
+                            <div class="card" style="width: 18rem;">
+                                <img src="..." class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 carousel-item">
+                            <div class="card" style="width: 18rem;">
+                                <img src="..." class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div> -->
+
+
+        <div class="container">
+            <div class="row ">
+                <div class="col-12 text-1">
+                    <p class="text-center ">Book your seats : 9840875432 / 9062783087</p>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.5.2/jquery-migrate.min.js"
+        integrity="sha512-BzvgYEoHXuphX+g7B/laemJGYFdrq4fTKEo+B3PurSxstMZtwu28FHkPKXu6dSBCzbUWqz/rMv755nUwhjQypw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+        integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="script.js"></script>
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+            $('.photo-section').slick({
+                dots: true,
+                infinite: true,
+                speed: 300,
+                slidesToShow: 4,
+                slidesToScroll: 4,
+                responsive: [
+                    {
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 3,
+                            slidesToScroll: 3,
+                            infinite: true,
+                            dots: true
+                        }
+                    },
+                    {
+                        breakpoint: 600,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 2
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    }
+                    // You can unslick at a given breakpoint now by adding:
+                    // settings: "unslick"
+                    // instead of a settings object
+                ]
+            });
+
+        });
+
+    </script>
+
+
+
+</body>
+
+</html>
